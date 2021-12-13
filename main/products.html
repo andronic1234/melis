@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="el">
+    <head>
+        <meta name= "viewport" content="width=device-width,initial-scale=1.0">
+        <title>Melis</title>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+</head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.jpg" class="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="products.html">PRODUCTS</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1> Τα προϊόντα μας</h1>
+        </section>
+
+        <section class="sec">
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            
+            <div class="row">
+                <div class="sec-col">
+                    <h3>Λάδι</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam expedita enim dolorum quia molestias, aliquid culpa dolores assumenda aperiam dolor, officiis, beatae hic nesciunt? Tenetur incidunt impedit ad neque nemo!</p>
+                </div>
+                <div class="sec-col">
+                    <h3>Μέλι</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam expedita enim dolorum quia molestias, aliquid culpa dolores assumenda aperiam dolor, officiis, beatae hic nesciunt? Tenetur incidunt impedit ad neque nemo!</p>
+                </div>
+                <div class="sec-col">
+                    <h3>Άλλο</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam expedita enim dolorum quia molestias, aliquid culpa dolores assumenda aperiam dolor, officiis, beatae hic nesciunt? Tenetur incidunt impedit ad neque nemo!</p>
+                </div>
+            </div>
+
+        </section> 
+
+        <section class="product-content">
+            <div class="prod-left">
+                <img src="images/products.jpg">
+                <h2>Τα πιο πρόσφατα προϊόντα μας</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam totam quae incidunt recusandae voluptate quis autem dolore? Labore magni ut voluptatum natus! Expedita, quae? Libero, ab quaerat. Officia, temporibus?</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, eveniet? Expedita, esse ipsa possimus inventore odio consequatur,voluptatem dolores quos ratione qui soluta sed. Nesciunt exercitationem molestias ex praesentium adipisci.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab omnis provident ipsum. Suscipit rerum soluta aliquam quaerat modi,vitae, provident harum porro ipsum cum dolor voluptates dolore tempore nam iure.</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea praesentium eveniet, saepe deleniti illum iste.Quidem voluptas dignissimos cumque explicabo. Maiores eaque harum minus perferendis veniam nostrum quis repellendus aliquid.</p>
+
+                
+
+            </div>
+            <div class="prod-right">
+                <h3>Κατηγορίες κλπ</h3>
+                <div>
+                    <span>Λάδι</span>
+                    <span>Ελαιόλαδο</span>
+                </div>
+                <div>
+                    <span>Μέλι</span>
+                    <span>Μέλι Πευκιάς</span>
+                </div>
+                <div>
+                    <span>Άλλο</span>
+                    <span>Αυγά</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h4>Social Media</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                Quidem aut vitae culpa nostrum nisi placeat iusto fugiat reiciendis ut!</p>
+                <div class="icons">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <a href="https://www.instagram.com/melis.zois/"><i class="fab fa-instagram-square"></i></a>
+                </div>
+                <p><i class="far fa-file-alt"></i>&nbsp;&nbsp;Website made by Ανδρέας Φωτόπουλος</p>
+            </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+        </script>
+    </body>
+</html>

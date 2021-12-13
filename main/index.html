@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="el">
+    <head>
+        <meta name= "viewport" content="width=device-width,initial-scale=1.0">
+        <title>Melis</title>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+</head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.jpg" class="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="products.html">PRODUCTS</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Προϊόντα Melis</h1>
+                <p>Νοσταλγία για πιο αυθεντικές γεύσεις....<br>Απλά... και αληθινά όπως παλιά...
+                    </p>
+                    <a href="about.html" class="hero-btn">Επισκεφθείτε μας</a>
+            </div>
+        </section>
+        <section class="sec">
+            <h1>Τα προϊόντα μας</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            
+            <div class="row">
+                <div class="sec-col">
+                    <h3>Λάδι</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam expedita enim dolorum quia molestias, aliquid culpa dolores assumenda aperiam dolor, officiis, beatae hic nesciunt? Tenetur incidunt impedit ad neque nemo!</p>
+                </div>
+                <div class="sec-col">
+                    <h3>Μέλι</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam expedita enim dolorum quia molestias, aliquid culpa dolores assumenda aperiam dolor, officiis, beatae hic nesciunt? Tenetur incidunt impedit ad neque nemo!</p>
+                </div>
+                <div class="sec-col">
+                    <h3>Άλλο</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam expedita enim dolorum quia molestias, aliquid culpa dolores assumenda aperiam dolor, officiis, beatae hic nesciunt? Tenetur incidunt impedit ad neque nemo!</p>
+                </div>
+            </div>
+
+        </section>
+        <section class="place">
+            <h1>Που θα μας βρείτε</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+            <div class="row">
+                <div class="product">
+                    <img src="images/oil.jpg">
+                    <div class="layer">
+                        <h3>ΛΑΔΙ</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="images/honey.jpg">
+                    <div class="layer">
+                        <h3>ΜΕΛΙ</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="images/other.jpg">
+                    <div class="layer">
+                        <h3>ΑΛΛΟ</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="contacts">
+            <h1>Επικοινωνήστε μαζί μας για παραλαβή<br>από κοντά ή από το σπίτι</h1>
+            <a href="contact.html" class="hero-btn">ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΕΔΩ</a>
+        </section>
+        <section class="footer">
+            <h4>Social Media</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                Quidem aut vitae culpa nostrum nisi placeat iusto fugiat reiciendis ut!</p>
+                <div class="icons">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <a href="https://www.instagram.com/melis.zois/"><i class="fab fa-instagram-square"></i></a>
+                </div>
+                <p><i class="far fa-file-alt"></i>&nbsp;&nbsp;Website made by Ανδρέας Φωτόπουλος</p>
+            </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+        </script>
+    </body>
+</html>
